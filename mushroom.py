@@ -13,7 +13,7 @@ columns = [
     "ring-number", "ring-type", "spore-print-color", "population", "habitat"
 ]
 
-# Đọc dữ liệu từ file (cần đặt đúng tên file trong cùng thư mục)
+# Đọc dữ liệu từ file
 df = pd.read_csv("mushroom/agaricus-lepiota.data", header=None, names=columns)
 
 # Xoá dòng có giá trị thiếu ở cột 'stalk-root'
